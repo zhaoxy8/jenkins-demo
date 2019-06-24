@@ -10,7 +10,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: xy1219.zhao/jenkins-demo:<BUILD_TAG>
+      - image: zhaoxy8/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
